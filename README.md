@@ -5,12 +5,19 @@ The scripts are used for generating cross-sections and various plots related to 
 ## Scripts Overview
 
 
-`Thcikness_v2.py` is used to calculate the relationship between fill thickness and two-way travel time, and will produce Fig. 4 in the article.
+## Scripts Description
 
-`loss_tangent.py`	is used to plot the loss tangent, and will produce Fig. 5.
+- **Thcikness_v2.py**  
+  Calculates the relationship between fill thickness and two-way travel time, and generates **Fig. 4** in the article.
 
-`皱脊横切面绘制_new.py`	is used to plot 18 cross-sections of wrinkle ridges with parameters (width, height, distance from crater), and will produce Fig. 6b-d.
+- **loss_tangent.py**  
+  Plots the loss tangent of four radar tracks, corresponding to **Fig. 5**.
 
-`radar_elevation_v4.py`	is used to generate elevation profiles for four radar tracks, and will produce Fig. 7b.	Fig. 7b
+- **皱脊横切面绘制_new.py**  
+  Plots 18 cross-sections of wrinkle ridges and illustrates how parameters (width, height, and crater distance) vary with distance, producing **Figs. 6b–d**.
 
-`Cross_Elevation_v4.py`	is used to generate 8 cross-sectional profiles of wrinkle ridges with Kriging interpolation, and will produce Fig. 7c.	Fig. 7c
+- **radar_elevation_v4.py**  
+  Generates elevation profiles for four radar tracks, corresponding to **Fig. 7b**.
+
+- **Cross_Elevation_v4.py**  
+  Produces eight cross-sectional profiles of wrinkle ridges after Kriging interpolation, corresponding to **Fig. 7c**.
