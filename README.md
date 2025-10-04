@@ -5,6 +5,7 @@ The scripts are used for generating cross-sections and various plots related to 
 ## Scripts Overview
 
 | Script Name | Description | Figure Reference |
+
 | `Thcikness_v2.py` | Relationship between fill thickness and two-way travel time | Fig. 6 |
 | `loss_tangent.py` | Plotting loss tangent | Fig. 7 |
 | `radar_elevation_v4.py` | Generate elevation profiles for four radar tracks | Fig. 8.1 |
