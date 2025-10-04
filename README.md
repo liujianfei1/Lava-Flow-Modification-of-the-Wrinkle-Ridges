@@ -2,9 +2,6 @@
 A collection of Python scripts for plotting wrinkle ridge topography and calculating geophysical parameters such as thickness, two-way travel time, loss tangent, and yield stress.
 The scripts are used for generating cross-sections and various plots related to subsurface and surface structures.
 
-## Scripts Overview
-
-
 ## Scripts Description
 
 - **Thcikness_v2.py**  
