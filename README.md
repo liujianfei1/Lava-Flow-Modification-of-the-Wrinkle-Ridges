@@ -18,3 +18,6 @@ The scripts are used for generating cross-sections and various plots related to 
 
 - **Cross_Elevation.py**  
   Produces eight cross-sectional profiles of wrinkle ridges after Kriging interpolation, corresponding to **Fig. 7c**.
+
+- **Relocate.py**  
+  Relocate pick based on energy, the codes "caltime.py, readroi.py, re_dupli.py, findlatlon.py" are related functions. Relocate.py relocates the surface pick at the maximum value within ±10 pixels, and the subsurface interface pick at the maximum value within ±7 pixels.
