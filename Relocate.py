@@ -106,3 +106,4 @@ if __name__ == "__main__":
             roi_coordinates_allfile.append(data[3])
 
     np.savez(os.path.join(path_roi, '../data' + str(window[1]) + '.npz'), roi_num=roi_num_allfile, roi_relocate_before=roi_relocate_before_allfile, roi_relocated=roi_relocated_allfile, roi_coordinates=roi_coordinates_allfile)
+
